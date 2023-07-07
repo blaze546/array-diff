@@ -17,3 +17,7 @@ if(!array2.includes(element)){returnArray.push(element)}
 // Return “returnArray”
 return returnArray;
 }
+v2
+function array_diff(a, b) {
+  return a.filter(e => !b.includes(e));
+}
